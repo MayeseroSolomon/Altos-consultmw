@@ -807,3 +807,18 @@ body::-webkit-scrollbar {
     font-weight: lighter;
     text-align: center;
 }
+.login-link {
+    background: #ffd700;
+    color: #001f3f !important;
+    padding: 8px 18px;
+    border-radius: 25px;
+    font-weight: bold;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.login-link:hover {
+    background: #001f3f;
+    color: #ffd700 !important;
+    transform: translateY(-2px);
+}
